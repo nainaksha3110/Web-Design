@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <h2>Contact Us Form</h2>
+
+    <form action="#" method="POST">      
+
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your full name" pattern="[A-Za-z\s]+" title="Name must contain only alphabets and spaces" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="username@example.com" required><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}" title="Mobile number must be exactly 10 digits" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Type your message here..." rows="4" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <h3>Importance of HTML5 Form Validation</h3>
+     <p>
+        HTML5 form validation provides native browser-based checks that ensure user input is accurate and secure before data reaches the server.
+        It enhances the user experience by giving instant,real-time error feedback without needing complex JavaScript code.
+        By utilizing attributes like required, pattern, and specific input types, it significantly reduces incorrect submissions and lightens server-side processing loads.
+     </p>
+</body>
+</html>
